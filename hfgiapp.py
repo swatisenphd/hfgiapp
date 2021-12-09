@@ -7,7 +7,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/regform')
-def index():
+def regform():
     return render_template('regform.html')
 
 @app.route('/test')

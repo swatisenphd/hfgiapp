@@ -6,6 +6,10 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/regform')
+def index():
+    return render_template('regform.html')
+
 @app.route('/test')
 def test():
     return 'This is a test'
